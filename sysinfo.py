@@ -48,6 +48,11 @@ for line in lines:
     continue
   net.append({'name':items[1],'addr':items[3]})
 
+
+print("[OS]")
+os.system('/bin/uname -nsr')
+print(open('/etc/issue.net').readline())
+
 print("[CPU]")
 dump(cpu)
 
